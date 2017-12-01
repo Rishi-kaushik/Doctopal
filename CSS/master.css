@@ -1,6 +1,5 @@
 body{
 	background-image: url('../images/home_bg.jpg');
-	background-repeat:no-repeat;
 	background-size: cover;
 }
 header{
@@ -14,7 +13,12 @@ img{
 	margin: auto;
 	display: flex;
 }
-.horizontal_continer{
+.header_menu{
+	align-self: center;
+	margin-right: 1%;
+	margin-left: auto;
+}
+.card_container{
 	margin: auto;
 	display: flex;
 	margin-top: 3%;
@@ -28,11 +32,11 @@ img{
 	padding: 1%;
 	background-color: #eeeeeed0;
 }
-.clear{
+/*.clear{
 	clear: both;
-}
+}*/
 @media only screen and (max-width: 1100px) {
-	.horizontal_continer{
+	.card_container{
 		margin: auto;
 		display: flex;
 		margin-top: 3%;
@@ -48,7 +52,7 @@ img{
 	}
 }
 @media only screen and (max-width: 750px) {
-	.horizontal_continer{
+	.card_container{
 		margin: auto;
 		display: block;
 		margin-top: 3%;
